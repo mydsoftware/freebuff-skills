@@ -1,0 +1,12 @@
+{
+  "name": "@myd/jalali",
+  "version": "0.1.0",
+  "description": "MYD Jalali Calendar — Standalone Jalali/Solar Hijri calendar for Persian applications",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": ["myd", "jalali", "persian", "calendar", "solar-hijri", "fa-IR"],
+  "author": "MYD",
+  "license": "MIT"
+}

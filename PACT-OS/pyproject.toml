@@ -1,0 +1,19 @@
+[project]
+name = "pact-os"
+version = "0.1.0"
+description = "Personal AI Crypto Trading Assistant"
+requires-python = ">=3.13"
+
+dependencies = [
+    "tabdeal-python>=0.4.7",
+    "python-dotenv>=1.1.1",
+    "SQLAlchemy>=2.0.43",
+    "pandas>=2.3.2",
+    "numpy>=2.3.3"
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88

@@ -1,0 +1,27 @@
+.wp-ai-os-score-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 30px;
+	margin: 20px 0;
+	max-width: 500px;
+}
+
+.wp-ai-os-score {
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.wp-ai-os-score span {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.wp-ai-os-checks {
+	margin-top: 30px;
+}
+
+.wp-ai-os-checks table {
+	margin-top: 15px;
+}

@@ -1,0 +1,9 @@
+﻿streams:
+  camera1:
+    - rtsp://admin:Myd%405113115@37.202.152.217:8554/media/video1
+  camera2:
+    - rtsp://admin:Myd%405113115@37.202.152.217:8552/media/video1
+
+api:
+  listen: ":1984"
+  origin: "*"

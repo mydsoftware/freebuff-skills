@@ -1,0 +1,2462 @@
+[
+  {
+    "name": "MYD AI Agent Manager",
+    "sources": [
+      "langchain-ai/langgraph",
+      "All-Hands-AI/OpenHands",
+      "browser-use/browser-use",
+      "BerriAI/litellm",
+      "topoteretes/cognee"
+    ],
+    "target_market": "Developers, businesses, automation users in Iran",
+    "features": [
+      "Agent orchestration and management",
+      "Multi-provider AI gateway",
+      "Browser automation agents",
+      "Code generation agents",
+      "Research agents",
+      "Task management and monitoring",
+      "Persian language agents",
+      "Cost tracking per agent",
+      "Memory and RAG integration",
+      "Plugin system for custom agents"
+    ],
+    "required_changes": [
+      "Adapter pattern for each source",
+      "Unified agent API",
+      "Persian agent prompts",
+      "MYD AI Core integration",
+      "Jalali scheduling",
+      "Persian UI dashboard"
+    ],
+    "estimated_complexity": "VERY HIGH",
+    "monetization": "Freemium: free tier with limited agents, Pro with unlimited, Business with custom models",
+    "priority": "S"
+  },
+  {
+    "name": "MYD AI Game Studio",
+    "sources": [
+      "4ian/GDevelop",
+      "pmgl/microstudio",
+      "godotengine/godot",
+      "comfyanonymous/ComfyUI"
+    ],
+    "target_market": "Indie game developers, educators, game studios in Iran",
+    "features": [
+      "Visual game editor",
+      "AI game design assistant",
+      "AI asset generation",
+      "Multi-platform export",
+      "Persian game templates",
+      "Scene/level editor",
+      "Physics engine",
+      "Audio tools"
+    ],
+    "required_changes": [
+      "Plugin integration for each engine",
+      "Persian UI overlay",
+      "ComfyUI art pipeline",
+      "Persian documentation and tutorials"
+    ],
+    "estimated_complexity": "VERY HIGH",
+    "monetization": "Free editor + Pro templates + AI credits + Asset marketplace",
+    "priority": "S"
+  },
+  {
+    "name": "MYD AI WordPress Factory",
+    "sources": [
+      "WordPress/wordpress-develop",
+      "woocommerce/woocommerce"
+    ],
+    "target_market": "Iranian businesses, e-commerce, agencies",
+    "features": [
+      "AI-powered theme generation",
+      "Persian-optimized WooCommerce",
+      "Smart product descriptions (Persian)",
+      "SEO optimization in Persian",
+      "Payment gateway integration (Zarinpal, IDPay)",
+      "SMS notification (Kavenegar)",
+      "Persian invoice generation",
+      "AI customer support"
+    ],
+    "required_changes": [
+      "MYD WordPress plugins",
+      "Persian theme templates",
+      "Iranian payment gateways",
+      "Iranian SMS providers",
+      "Jalali date handling",
+      "Persian shipping labels"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Plugin marketplace + Pro themes + Managed hosting + AI credits",
+    "priority": "S"
+  },
+  {
+    "name": "MYD AI Commerce",
+    "sources": [
+      "spree/spree",
+      "medusajs/medusa",
+      "woocommerce/woocommerce"
+    ],
+    "target_market": "Iranian e-commerce businesses, marketplaces",
+    "features": [
+      "Multi-vendor marketplace",
+      "AI product descriptions",
+      "AI SEO optimization",
+      "Persian checkout flow",
+      "Multiple payment gateways",
+      "Inventory management",
+      "Order tracking",
+      "AI recommendation engine"
+    ],
+    "required_changes": [
+      "Headless commerce adapter",
+      "Persian storefront theme",
+      "Iranian payment integrations",
+      "Iranian shipping integrations",
+      "Jalali order history"
+    ],
+    "estimated_complexity": "VERY HIGH",
+    "monetization": "Commission on transactions + SaaS + Plugins",
+    "priority": "S"
+  },
+  {
+    "name": "MYD ERP",
+    "sources": [
+      "frappe/erpnext",
+      "frappe/frappe"
+    ],
+    "target_market": "Iranian SMEs, factories, trading companies",
+    "features": [
+      "Full ERP: Accounting, CRM, Inventory, HR",
+      "Persian accounting standards",
+      "Jalali fiscal year",
+      "Toman currency",
+      "Iranian tax rules",
+      "Persian reports and invoices",
+      "SMS notifications",
+      "Persian payroll"
+    ],
+    "required_changes": [
+      "Frappe adapter for Persian accounting",
+      "Jalali date framework",
+      "Toman currency module",
+      "Iranian tax engine",
+      "Persian invoice templates",
+      "SMS integration"
+    ],
+    "estimated_complexity": "VERY HIGH",
+    "monetization": "SaaS per-user pricing + Self-hosted license + Support",
+    "priority": "S"
+  },
+  {
+    "name": "MYD CRM",
+    "sources": [
+      "frappe/erpnext",
+      "frappe/frappe"
+    ],
+    "target_market": "Iranian sales teams, businesses, agencies",
+    "features": [
+      "Lead management with AI scoring",
+      "Persian communication templates",
+      "SMS/WhatsApp integration",
+      "Jalali calendar for follow-ups",
+      "Pipeline visualization",
+      "AI sales predictions",
+      "Persian reports"
+    ],
+    "required_changes": [
+      "Standalone CRM module extraction",
+      "Persian communication layer",
+      "Iranian SMS integration",
+      "Jalali scheduling",
+      "AI lead scoring"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Per-user SaaS + AI credits",
+    "priority": "A"
+  },
+  {
+    "name": "MYD Forms",
+    "sources": [
+      "OpnForm/OpnForm",
+      "appsmithorg/appsmith",
+      "Budibase/budibase"
+    ],
+    "target_market": "Iranian businesses, schools, government, events",
+    "features": [
+      "AI form generation from Persian prompts",
+      "Drag & Drop builder",
+      "Conditional logic",
+      "Persian form templates",
+      "File upload with Persian validation",
+      "Payment integration for registration fees",
+      "Webhook/API access",
+      "Persian reports and analytics"
+    ],
+    "required_changes": [
+      "Persian form templates",
+      "Iranian payment gateway for forms",
+      "Jalali date fields",
+      "Persian field validation",
+      "AI form generator in Persian"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Free tier + Pro submissions + Enterprise",
+    "priority": "A"
+  },
+  {
+    "name": "MYD Farm AI / SheepMonitor",
+    "sources": [
+      "farmOS/farmOS",
+      "thingsboard/thingsboard"
+    ],
+    "target_market": "Iranian farmers, livestock managers, agriculture businesses",
+    "features": [
+      "Animal tracking and management",
+      "IoT weight sensors integration",
+      "AI growth prediction",
+      "Dynamic feed ration calculator",
+      "Health monitoring",
+      "Jalali date tracking",
+      "Persian reports",
+      "Mobile app for field use"
+    ],
+    "required_changes": [
+      "Livestock-specific modules",
+      "IoT sensor adapters",
+      "Persian agriculture terminology",
+      "Jalali animal records",
+      "AI prediction models"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Hardware + SaaS + Support",
+    "priority": "A"
+  },
+  {
+    "name": "MYD IoT",
+    "sources": [
+      "thingsboard/thingsboard",
+      "home-assistant/core",
+      "chirpstack/chirpstack"
+    ],
+    "target_market": "Iranian smart home, industrial IoT, agriculture",
+    "features": [
+      "Device management dashboard",
+      "Real-time telemetry",
+      "Rule engine for automation",
+      "MQTT/HTTP/LoRaWAN support",
+      "Alert system",
+      "Persian dashboard",
+      "Mobile app"
+    ],
+    "required_changes": [
+      "Persian dashboard UI",
+      "Iranian device marketplace",
+      "Persian documentation",
+      "Local MQTT broker config"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Hardware partnerships + SaaS + Enterprise",
+    "priority": "A"
+  },
+  {
+    "name": "MYD Document AI",
+    "sources": [
+      "Stirling-Tools/Stirling-PDF",
+      "paperless-ngx/paperless-ngx",
+      "infiniflow/ragflow",
+      "Mintplex-Labs/anything-llm"
+    ],
+    "target_market": "Iranian businesses, legal firms, government, education",
+    "features": [
+      "Persian PDF processing",
+      "Document OCR (Persian/Arabic)",
+      "AI document classification",
+      "RAG over Persian documents",
+      "Smart search in Persian",
+      "Document summarization",
+      "Template generation"
+    ],
+    "required_changes": [
+      "Persian OCR models",
+      "Jalali metadata",
+      "Persian document templates",
+      "RTL PDF generation",
+      "Persian RAG pipeline"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "SaaS per-document + Enterprise self-hosted",
+    "priority": "A"
+  },
+  {
+    "repository": "langchain-ai/langchain",
+    "name": "MYD LLM application infrastructure — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "langchain-ai/langchain",
+    "name": "MYD AI Core",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "LLM application infrastructure",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "langchain-ai/langchain",
+    "name": "MYD AI-Enhanced LLM application infrastructure",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "All-Hands-AI/OpenHands",
+    "name": "MYD Autonomous software development — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "All-Hands-AI/OpenHands",
+    "name": "MYD Autonomous Developer",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Autonomous software development",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "All-Hands-AI/OpenHands",
+    "name": "MYD AI-Enhanced Autonomous software development",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "langchain-ai/langgraph",
+    "name": "MYD Agent orchestration — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "langchain-ai/langgraph",
+    "name": "MYD Agent Manager",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Agent orchestration",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "langchain-ai/langgraph",
+    "name": "MYD Game Studio",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Agent orchestration",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "langchain-ai/langgraph",
+    "name": "MYD AI-Enhanced Agent orchestration",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "supabase/supabase",
+    "name": "MYD Open-source backend platform — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "supabase/supabase",
+    "name": "MYD Backend Platform",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Open-source backend platform",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "browser-use/browser-use",
+    "name": "MYD Browser automation for AI Agents — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "browser-use/browser-use",
+    "name": "MYD Browser Agent",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Browser automation for AI Agents",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "browser-use/browser-use",
+    "name": "MYD AI-Enhanced Browser automation for AI Agents",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "medusajs/medusa",
+    "name": "MYD Composable commerce — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "medusajs/medusa",
+    "name": "MYD Commerce",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Composable commerce",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "BerriAI/litellm",
+    "name": "MYD LLM gateway/provider abstraction — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "BerriAI/litellm",
+    "name": "MYD AI Gateway",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "LLM gateway/provider abstraction",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "godotengine/godot",
+    "name": "MYD Open-source game engine — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "godotengine/godot",
+    "name": "MYD Game AI Pipeline",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Open-source game engine",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "godotengine/godot",
+    "name": "MYD AI-Enhanced Open-source game engine",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "meilisearch/meilisearch",
+    "name": "MYD Search engine — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "meilisearch/meilisearch",
+    "name": "MYD Search",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Search engine",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "frappe/erpnext",
+    "name": "MYD Full ERP — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "frappe/erpnext",
+    "name": "MYD ERP",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Full ERP",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "thingsboard/thingsboard",
+    "name": "MYD IoT platform — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "thingsboard/thingsboard",
+    "name": "MYD IoT",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "IoT platform",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "WordPress/wordpress-develop",
+    "name": "MYD WordPress core — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "WordPress/wordpress-develop",
+    "name": "MYD WordPress Factory",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "WordPress core",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "WordPress/wordpress-develop",
+    "name": "MYD AI-Enhanced WordPress core",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "keycloak/keycloak",
+    "name": "MYD Identity and access management — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "keycloak/keycloak",
+    "name": "MYD Auth",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Identity and access management",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "langgenius/dify",
+    "name": "MYD LLM application platform — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "S"
+  },
+  {
+    "repository": "langgenius/dify",
+    "name": "MYD AI Studio",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "LLM application platform",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "S"
+  },
+  {
+    "repository": "langgenius/dify",
+    "name": "MYD AI-Enhanced LLM application platform",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "ORANGE",
+    "priority": "S"
+  },
+  {
+    "repository": "4ian/GDevelop",
+    "name": "MYD Open-source game engine/editor — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "4ian/GDevelop",
+    "name": "MYD Game Studio",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Open-source game engine/editor",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "woocommerce/woocommerce",
+    "name": "MYD WooCommerce — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "woocommerce/woocommerce",
+    "name": "MYD AI Commerce",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "WooCommerce",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "Comfy-Org/ComfyUI",
+    "name": "MYD Generative image workflow — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "Comfy-Org/ComfyUI",
+    "name": "MYD AI Art Pipeline",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Generative image workflow",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "Stirling-Tools/Stirling-PDF",
+    "name": "MYD PDF toolkit — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "Stirling-Tools/Stirling-PDF",
+    "name": "MYD PDF AI",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "PDF toolkit",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "saleor/saleor",
+    "name": "MYD GraphQL-first commerce — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "saleor/saleor",
+    "name": "MYD Enterprise Commerce",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "GraphQL-first commerce",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "pocketbase/pocketbase",
+    "name": "MYD Embedded backend — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "pocketbase/pocketbase",
+    "name": "MYD Rapid App Backend",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Embedded backend",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "Aider-AI/aider",
+    "name": "MYD AI pair programming — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "Aider-AI/aider",
+    "name": "MYD Coding Agent",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "AI pair programming",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "home-assistant/core",
+    "name": "MYD Home automation — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "home-assistant/core",
+    "name": "MYD Smart Home",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Home automation",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "frappe/frappe",
+    "name": "MYD ERP/application framework — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "frappe/frappe",
+    "name": "MYD Business Platform",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "ERP/application framework",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "infiniflow/ragflow",
+    "name": "MYD RAG/document intelligence — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "infiniflow/ragflow",
+    "name": "MYD Document Intelligence",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "RAG/document intelligence",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "strapi/strapi",
+    "name": "MYD Headless CMS — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "strapi/strapi",
+    "name": "MYD CMS AI",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Headless CMS",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "Mintplex-Labs/anything-llm",
+    "name": "MYD Private AI knowledge platform — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "Mintplex-Labs/anything-llm",
+    "name": "MYD Knowledge AI",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Private AI knowledge platform",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "n8n-io/n8n",
+    "name": "MYD Workflow automation — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "S"
+  },
+  {
+    "repository": "n8n-io/n8n",
+    "name": "MYD Automation Engine",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Workflow automation",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "S"
+  },
+  {
+    "repository": "spree/spree",
+    "name": "MYD Headless eCommerce — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "spree/spree",
+    "name": "MYD Commerce Core",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Headless eCommerce",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "appsmithorg/appsmith",
+    "name": "MYD Internal application builder — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "appsmithorg/appsmith",
+    "name": "MYD Business App Builder",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Internal application builder",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "activepieces/activepieces",
+    "name": "MYD Automation platform — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "activepieces/activepieces",
+    "name": "MYD Automation",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Automation platform",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "invoke-ai/InvokeAI",
+    "name": "MYD Generative media — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "invoke-ai/InvokeAI",
+    "name": "MYD Creative AI",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Generative media",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "metabase/metabase",
+    "name": "MYD Business intelligence — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "metabase/metabase",
+    "name": "MYD BI",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Business intelligence",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "paperless-ngx/paperless-ngx",
+    "name": "MYD Document management — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "A"
+  },
+  {
+    "repository": "paperless-ngx/paperless-ngx",
+    "name": "MYD Document AI",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Document management",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "A"
+  },
+  {
+    "repository": "formbricks/formbricks",
+    "name": "MYD Survey / feedback platform — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "formbricks/formbricks",
+    "name": "MYD Feedback",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Survey / feedback platform",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "makeplane/plane",
+    "name": "MYD Project management — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "makeplane/plane",
+    "name": "MYD Project Manager",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Project management",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "traccar/traccar",
+    "name": "MYD GPS tracking — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "traccar/traccar",
+    "name": "MYD Fleet / GPS",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "GPS tracking",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "A"
+  },
+  {
+    "repository": "Budibase/budibase",
+    "name": "MYD Internal tools / app builder — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "Budibase/budibase",
+    "name": "MYD App Builder",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Internal tools / app builder",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "SigNoz/signoz",
+    "name": "MYD Open-source observability — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "SigNoz/signoz",
+    "name": "MYD Monitoring",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Open-source observability",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "pmgl/microstudio",
+    "name": "MYD Browser-based game development — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "pmgl/microstudio",
+    "name": "MYD Web Game Studio",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Browser-based game development",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "S"
+  },
+  {
+    "repository": "OpnForm/OpnForm",
+    "name": "MYD Form builder — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "OpnForm/OpnForm",
+    "name": "MYD Forms",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Form builder",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "OpnForm/OpnForm",
+    "name": "MYD AI-Enhanced Form builder",
+    "target_market": "AI-first businesses in Iran",
+    "features": [
+      "AI automation",
+      "Natural language interface",
+      "Smart recommendations",
+      "Automated workflows",
+      "Persian NLP support"
+    ],
+    "required_changes": [
+      "MYD AI Core integration",
+      "Persian NLP",
+      "Agent runtime"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "AI credits + SaaS",
+    "license_model": "ORANGE",
+    "priority": "A"
+  },
+  {
+    "repository": "RocketChat/Rocket.Chat",
+    "name": "MYD Open-source communication — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "GREEN",
+    "priority": "B"
+  },
+  {
+    "repository": "RocketChat/Rocket.Chat",
+    "name": "MYD Business Chat",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Open-source communication",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "GREEN",
+    "priority": "B"
+  },
+  {
+    "repository": "vendure-ecommerce/vendure",
+    "name": "MYD TypeScript headless commerce — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "A"
+  },
+  {
+    "repository": "vendure-ecommerce/vendure",
+    "name": "MYD Commerce Alternative",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "TypeScript headless commerce",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "A"
+  },
+  {
+    "repository": "farmOS/farmOS",
+    "name": "MYD Farm management — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "farmOS/farmOS",
+    "name": "MYD Farm AI",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Farm management",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "HIGH",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "S"
+  },
+  {
+    "repository": "opf/openproject",
+    "name": "MYD Enterprise project management — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "YELLOW",
+    "priority": "B"
+  },
+  {
+    "repository": "opf/openproject",
+    "name": "MYD Enterprise PM",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Enterprise project management",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "YELLOW",
+    "priority": "B"
+  },
+  {
+    "repository": "firefly-iii/firefly-iii",
+    "name": "MYD Personal finance manager — Persian Edition",
+    "target_market": "Iran / Persian-speaking market",
+    "features": [
+      "RTL UI support",
+      "Persian typography (Vazirmatn/IranSans)",
+      "Jalali calendar integration",
+      "Toman currency",
+      "Persian documentation"
+    ],
+    "required_changes": [
+      "i18n/fa-IR locale",
+      "RTL CSS framework",
+      "Jalali date adapter",
+      "Toman currency formatter"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "SaaS subscription",
+    "license_model": "ORANGE",
+    "priority": "B"
+  },
+  {
+    "repository": "firefly-iii/firefly-iii",
+    "name": "MYD Personal Finance",
+    "target_market": "Iran / Global Persian market",
+    "features": [
+      "Personal finance manager",
+      "Persian language support",
+      "AI-powered features",
+      "Mobile responsive",
+      "API access"
+    ],
+    "required_changes": [
+      "MYD Adapter Layer integration",
+      "Persian localization",
+      "AI Core integration",
+      "MYD authentication"
+    ],
+    "estimated_complexity": "MEDIUM",
+    "monetization": "Freemium + SaaS",
+    "license_model": "ORANGE",
+    "priority": "B"
+  }
+]

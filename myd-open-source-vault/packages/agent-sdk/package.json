@@ -1,0 +1,15 @@
+{
+  "name": "@myd/agent-sdk",
+  "version": "0.1.0",
+  "description": "MYD Agent SDK — Runtime framework for building, deploying, and managing AI agents",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": ["myd", "agent", "sdk", "runtime", "ai", "orchestration"],
+  "author": "MYD",
+  "license": "MIT",
+  "dependencies": {
+    "@myd/ai-core": "file:../ai-core"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "myd-shell",
+  "version": "1.0.0",
+  "description": "Cross-platform shell with virtual CWD and async process support",
+  "main": "src/index.js",
+  "bin": {
+    "myd-shell": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["shell", "terminal", "cwd", "process", "async"],
+  "author": "MYD Software",
+  "license": "MIT",
+  "type": "commonjs"
+}

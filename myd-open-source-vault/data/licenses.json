@@ -1,0 +1,259 @@
+{
+  "generated": "2026-09-02T05:03:04.100Z",
+  "total": 62,
+  "scanned": 61,
+  "byClassification": {
+    "GREEN": [
+      {
+        "name": "browser-use/browser-use",
+        "spdx": "MIT"
+      },
+      {
+        "name": "OpenHands/OpenHands",
+        "spdx": "MIT"
+      },
+      {
+        "name": "godotengine/godot",
+        "spdx": "MIT"
+      },
+      {
+        "name": "langchain-ai/langchain",
+        "spdx": "MIT"
+      },
+      {
+        "name": "cline/cline",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "langchain-ai/langgraph",
+        "spdx": "MIT"
+      },
+      {
+        "name": "SWE-agent/SWE-agent",
+        "spdx": "MIT"
+      },
+      {
+        "name": "Mintplex-Labs/anything-llm",
+        "spdx": "MIT"
+      },
+      {
+        "name": "invoke-ai/InvokeAI",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "langchain-ai/deepagents",
+        "spdx": "MIT"
+      },
+      {
+        "name": "topoteretes/cognee",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "continuedev/continue",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "TryGhost/Ghost",
+        "spdx": "MIT"
+      },
+      {
+        "name": "spree/spree",
+        "spdx": "BSD-3-Clause"
+      },
+      {
+        "name": "frappe/frappe",
+        "spdx": "MIT"
+      },
+      {
+        "name": "Aider-AI/aider",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "saleor/saleor",
+        "spdx": "BSD-3-Clause"
+      },
+      {
+        "name": "home-assistant/core",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "opensearch-project/OpenSearch",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "thingsboard/thingsboard",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "apache/superset",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "supabase/supabase",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "phaserjs/phaser",
+        "spdx": "MIT"
+      },
+      {
+        "name": "infiniflow/ragflow",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "keycloak/keycloak",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "pocketbase/pocketbase",
+        "spdx": "MIT"
+      },
+      {
+        "name": "appsmithorg/appsmith",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "open-telemetry/opentelemetry-collector",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "actualbudget/actual",
+        "spdx": "MIT"
+      },
+      {
+        "name": "pmgl/microstudio",
+        "spdx": "MIT"
+      },
+      {
+        "name": "traccar/traccar",
+        "spdx": "Apache-2.0"
+      },
+      {
+        "name": "chirpstack/chirpstack",
+        "spdx": "MIT"
+      }
+    ],
+    "YELLOW": [
+      {
+        "name": "Comfy-Org/ComfyUI",
+        "spdx": "GPL-3.0"
+      },
+      {
+        "name": "frappe/erpnext",
+        "spdx": "GPL-3.0"
+      },
+      {
+        "name": "paperless-ngx/paperless-ngx",
+        "spdx": "GPL-3.0"
+      },
+      {
+        "name": "WordPress/wordpress-develop",
+        "spdx": "GPL-2.0"
+      },
+      {
+        "name": "opf/openproject",
+        "spdx": "GPL-3.0"
+      },
+      {
+        "name": "farmOS/farmOS",
+        "spdx": "GPL-2.0"
+      }
+    ],
+    "ORANGE": [
+      {
+        "name": "grafana/grafana",
+        "spdx": "AGPL-3.0"
+      },
+      {
+        "name": "makeplane/plane",
+        "spdx": "AGPL-3.0"
+      },
+      {
+        "name": "firefly-iii/firefly-iii",
+        "spdx": "AGPL-3.0"
+      }
+    ],
+    "UNKNOWN": [
+      {
+        "name": "woocommerce/woocommerce",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "BerriAI/litellm",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "strapi/strapi",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "langgenius/dify",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "Stirling-Tools/Stirling-PDF",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "n8n-io/n8n",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "medusajs/medusa",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "FlowiseAI/Flowise",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "activepieces/activepieces",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "OpnForm/OpnForm",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "vendurehq/vendure",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "4ian/GDevelop",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "windmill-labs/windmill",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "meilisearch/meilisearch",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "Budibase/budibase",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "SigNoz/signoz",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "metabase/metabase",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "RocketChat/Rocket.Chat",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "goauthentik/authentik",
+        "spdx": "NOASSERTION"
+      },
+      {
+        "name": "formbricks/formbricks",
+        "spdx": "NOASSERTION"
+      }
+    ]
+  }
+}

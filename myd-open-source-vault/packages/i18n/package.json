@@ -1,0 +1,12 @@
+{
+  "name": "@myd/i18n",
+  "version": "0.1.0",
+  "description": "MYD Internationalization — RTL, Persian locale, Jalali calendar, Toman currency",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": ["myd", "i18n", "rtl", "persian", "jalali", "farsi"],
+  "author": "MYD",
+  "license": "MIT"
+}

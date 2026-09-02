@@ -1,0 +1,17 @@
+{
+  "name": "@myd/ai-core",
+  "version": "0.1.0",
+  "description": "MYD AI Core — Provider-agnostic AI layer with model routing, cost tracking, and fallback",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test src/**/*.test.js",
+    "lint": "echo 'TODO: add eslint'"
+  },
+  "keywords": ["myd", "ai", "llm", "providers", "routing"],
+  "author": "MYD",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

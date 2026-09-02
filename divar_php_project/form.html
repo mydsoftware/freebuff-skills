@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>دیوار اسکرپر</title>
+    <style>
+        body { font-family: sans-serif; direction: rtl; text-align: center; background: #f0f0f0; margin-top: 50px; }
+        form { background: white; padding: 30px; margin: auto; width: 300px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        input, select { width: 100%; padding: 10px; margin: 10px 0; }
+        button { padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+<form action="index.php" method="post">
+    <h2>جستجو در دیوار</h2>
+    <input type="text" name="keyword" placeholder="کلمه کلیدی مثل: لپ‌تاپ" required>
+    <select name="city_id">
+        <option value="1">تهران</option>
+        <option value="2">مشهد</option>
+        <option value="3">اصفهان</option>
+        <option value="4">شیراز</option>
+        <option value="5">تبریز</option>
+    </select>
+    <button type="submit">دریافت اکسل</button>
+</form>
+</body>
+</html>
