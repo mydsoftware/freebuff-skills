@@ -44,11 +44,22 @@ npx skills add mydsoftware/freebuff-skills@skills/[نام-مهارت] -g -y
 | `frontend-design` | طراحی فرانت‌اند | 844.6K |
 | `frontend-ui-engineering` | مهندسی UI | 31.7K |
 | `web-design-guidelines` | راهنمای طراحی وب | 599.7K |
+| `tailwind-design-system` | سیستم طراحی Tailwind | 62.1K |
 | `accessibility` | دسترسی‌پذیری | 49.4K |
 | `seo` | بهینه‌سازی موتور جستجو | 43K |
 | `performance` | بهینه‌سازی عملکرد | 32.5K |
 | `nextjs-app-router-patterns` | الگوهای App Router | 28.7K |
 | `clerk-nextjs-patterns` | الگوهای Clerk + Next.js | 39.1K |
+
+### ⚙️ بک‌اند و پایگاه داده
+| نام | توضیحات | تعداد نصب اصلی |
+|------|---------|-----------------|
+| `supabase` | راهنمای کامل Supabase | 251.8K |
+| `prisma-upgrade-v7` | ارتقا و استفاده از Prisma ORM v7 | 243.2K |
+| `better-auth-security-best-practices` | بهترین روش‌های امنیت احراز هویت | 28.4K |
+| `prisma-database-setup` | راه‌اندازی Prisma | 254.5K |
+| `neon-postgres` | Neon Postgres | 130.8K |
+| `convex` | Convex Database | - |
 
 ### 🤖 هوش مصنوعی و API
 | نام | توضیحات | تعداد نصب اصلی |
@@ -76,13 +87,6 @@ npx skills add mydsoftware/freebuff-skills@skills/[نام-مهارت] -g -y
 | `setup-pre-commit` | راه‌اندازی pre-commit | 296.6K |
 | `turborepo` | Turborepo | 67.6K |
 
-### 🗄️ پایگاه داده
-| نام | توضیحات | تعداد نصب اصلی |
-|------|---------|-----------------|
-| `prisma-database-setup` | راه‌اندازی Prisma | 254.5K |
-| `neon-postgres` | Neon Postgres | 130.8K |
-| `convex` | Convex Database | - |
-
 ### 📝 مستندات و ابزارها
 | نام | توضیحات | تعداد نصب اصلی |
 |------|---------|-----------------|
@@ -98,8 +102,8 @@ npx skills add mydsoftware/freebuff-skills@skills/[نام-مهارت] -g -y
 
 ## 📊 آمار کلی
 
-- **تعداد کل مهارت‌ها:** 66
-- **منابع:** anthropics, mattpocock, addyosmani, wshobson, vercel, microsoft, google, firebase, prisma, neondatabase, clerk, github
+- **تعداد کل مهارت‌ها:** 73
+- **منابع:** anthropics, mattpocock, addyosmani, wshobson, vercel, microsoft, google, firebase, prisma, neondatabase, clerk, supabase, better-auth, github
 
 ## 📖 مستندات
 
